@@ -1,0 +1,36 @@
+<div class="container p-4">
+  <div class="row">
+    <div class="col-md-4 mx-auto">
+      <div class="card text-left">
+        <div class="card-header">
+          <h3>Crear cuenta</h3>
+        </div>
+        <div class="card-body">
+          <form action="/signup" method="POST">
+            <div class="form-group">
+            <label for="fullname">Tu nombre</label>
+              <input type="type" name="fullname"  class="form-control form-control-sm" autofocus>
+            </div>
+            <div class="form-group">
+            <label for="email">Correo electronico</label>
+              <input type="email" name="email" class="form-control form-control-sm">
+            </div>
+            <div class="form-group">
+            <label for="password">Contraseña</label>
+              <input type="password" name="password"
+              class="form-control form-control-sm">
+              <small id="passwordHelpInline" class="text-muted">
+                La contraseña debe tener al menos 6 carácteres
+              </small>
+            </div>
+            <div class="form-group">
+              <button class="btn btn-success btn-block">
+                Siguiente
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
